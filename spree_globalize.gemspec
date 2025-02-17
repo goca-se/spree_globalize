@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'goca-spree-core', spree_version
   s.add_runtime_dependency 'spree_i18n'
   # s.add_runtime_dependency 'spree_extension'
-  s.add_runtime_dependency 'friendly_id', '~> 5.1.0'
+  s.add_runtime_dependency 'friendly_id', '~> 5.2.0'
   s.add_runtime_dependency 'friendly_id-globalize', '~> 1.0.0'
   s.add_runtime_dependency 'globalize'
   s.add_runtime_dependency 'i18n_data'
