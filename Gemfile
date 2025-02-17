@@ -6,3 +6,6 @@ gem 'spree_i18n', git: 'https://github.com/goca-se/spree_i18n', branch: 'version
 gem 'globalize', '~> 5.2.0'
 
 gemspec
+
+gem 'loofah', '~> 2.19.1'
+gem 'rails-html-sanitizer', '~> 1.4.4'
