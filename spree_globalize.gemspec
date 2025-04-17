@@ -21,10 +21,10 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  spree_version =  '3.1.14.rails.5.0.1'
+  spree_version =  '3.1.14.rails.5.2.8.1'
   s.add_dependency 'goca-spree-core', spree_version
+
   s.add_runtime_dependency 'spree_i18n'
-  # s.add_runtime_dependency 'spree_extension'
   s.add_runtime_dependency 'friendly_id', '~> 5.2.0'
   s.add_runtime_dependency 'friendly_id-globalize', '1.0.0.alpha3'
   s.add_runtime_dependency 'globalize'
