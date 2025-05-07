@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  spree_version =  '3.1.14.rails.5.2.8.1'
+  spree_version =  '3.1.14.rails.5.2.8.2'
   s.add_dependency 'goca-spree-core', spree_version
 
   s.add_runtime_dependency 'spree_i18n'
